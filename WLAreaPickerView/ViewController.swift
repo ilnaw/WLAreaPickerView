@@ -8,18 +8,24 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController ,WLAreaPickerViewDelegate{
 
+    var pickerView = WLAreaPickerView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        pickerView.wlPickerViewDelegate = self
     }
+    @IBOutlet var showButton: UIButton!
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func show(sender: AnyObject) {
+        pickerView.show()
     }
-
+    
+//MARK:delegate
+    func didselectedareaNameAndId(province: String, city: String, area: String, id: String) {
+        showButton.setTitle(province+city+area, forState: UIControlState.Normal)
+    }
 
 }
 
