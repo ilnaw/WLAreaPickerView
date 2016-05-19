@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2799014B1CED992500B5D768 /* myArea.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279901491CED992500B5D768 /* myArea.plist */; };
+		2799014C1CED992500B5D768 /* WLAreaPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2799014A1CED992500B5D768 /* WLAreaPickerView.swift */; };
 		27ECAD181CDC6FF100051D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECAD171CDC6FF100051D23 /* AppDelegate.swift */; };
 		27ECAD1A1CDC6FF100051D23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECAD191CDC6FF100051D23 /* ViewController.swift */; };
 		27ECAD1D1CDC6FF100051D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27ECAD1B1CDC6FF100051D23 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		279901491CED992500B5D768 /* myArea.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myArea.plist; sourceTree = "<group>"; };
+		2799014A1CED992500B5D768 /* WLAreaPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLAreaPickerView.swift; sourceTree = "<group>"; };
 		27ECAD141CDC6FF100051D23 /* WLAreaPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLAreaPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27ECAD171CDC6FF100051D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27ECAD191CDC6FF100051D23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		279901481CED992500B5D768 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				279901491CED992500B5D768 /* myArea.plist */,
+				2799014A1CED992500B5D768 /* WLAreaPickerView.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		27ECAD0B1CDC6FF100051D23 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +110,7 @@
 		27ECAD161CDC6FF100051D23 /* WLAreaPickerView */ = {
 			isa = PBXGroup;
 			children = (
+				279901481CED992500B5D768 /* Resources */,
 				27ECAD171CDC6FF100051D23 /* AppDelegate.swift */,
 				27ECAD191CDC6FF100051D23 /* ViewController.swift */,
 				27ECAD1B1CDC6FF100051D23 /* Main.storyboard */,
@@ -230,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27ECAD221CDC6FF100051D23 /* LaunchScreen.storyboard in Resources */,
+				2799014B1CED992500B5D768 /* myArea.plist in Resources */,
 				27ECAD1F1CDC6FF100051D23 /* Assets.xcassets in Resources */,
 				27ECAD1D1CDC6FF100051D23 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27ECAD1A1CDC6FF100051D23 /* ViewController.swift in Sources */,
+				2799014C1CED992500B5D768 /* WLAreaPickerView.swift in Sources */,
 				27ECAD181CDC6FF100051D23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wanli.WLAreaPickerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.3;
 			};
 			name = Debug;
 		};
@@ -414,6 +431,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wanli.WLAreaPickerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos9.3;
 			};
 			name = Release;
 		};
@@ -482,6 +500,7 @@
 				27ECAD3E1CDC6FF100051D23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27ECAD3F1CDC6FF100051D23 /* Build configuration list for PBXNativeTarget "WLAreaPickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +509,7 @@
 				27ECAD411CDC6FF100051D23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27ECAD421CDC6FF100051D23 /* Build configuration list for PBXNativeTarget "WLAreaPickerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +518,7 @@
 				27ECAD441CDC6FF100051D23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
