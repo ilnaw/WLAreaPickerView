@@ -15,6 +15,10 @@ class ViewController: UIViewController ,WLAreaPickerViewDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         pickerView.wlPickerViewDelegate = self
+        
+        let label = UILabel.init(frame: self.view.frame)
+        label.text = "master"
+        self.view.addSubview(label)
     }
     @IBOutlet var showButton: UIButton!
 
