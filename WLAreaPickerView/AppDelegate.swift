@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("YES")
         print("not")
         print("\(NSDate.init())")
+        print("sdfsdf")
         return true
     }
 
