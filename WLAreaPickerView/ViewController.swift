@@ -22,6 +22,10 @@ class ViewController: UIViewController ,WLAreaPickerViewDelegate{
         
         label.removeFromSuperview()
         
+        let gitTextLabel = UILabel.init(frame: CGRectMake(0, 60, 100, 40))
+        gitTextLabel.text = "gitText"
+        self.view.addSubview(gitTextLabel)
+        
     }
     @IBOutlet var showButton: UIButton!
 

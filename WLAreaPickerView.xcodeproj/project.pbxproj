@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2716ACAC1CEEEDEC004F3ED1 /* workViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2716ACAB1CEEEDEC004F3ED1 /* workViewController.swift */; };
 		2799014B1CED992500B5D768 /* myArea.plist in Resources */ = {isa = PBXBuildFile; fileRef = 279901491CED992500B5D768 /* myArea.plist */; };
 		2799014C1CED992500B5D768 /* WLAreaPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2799014A1CED992500B5D768 /* WLAreaPickerView.swift */; };
 		27ECAD181CDC6FF100051D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27ECAD171CDC6FF100051D23 /* AppDelegate.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2716ACAB1CEEEDEC004F3ED1 /* workViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = workViewController.swift; sourceTree = "<group>"; };
 		279901491CED992500B5D768 /* myArea.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = myArea.plist; sourceTree = "<group>"; };
 		2799014A1CED992500B5D768 /* WLAreaPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WLAreaPickerView.swift; sourceTree = "<group>"; };
 		27ECAD141CDC6FF100051D23 /* WLAreaPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLAreaPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +115,7 @@
 				279901481CED992500B5D768 /* Resources */,
 				27ECAD171CDC6FF100051D23 /* AppDelegate.swift */,
 				27ECAD191CDC6FF100051D23 /* ViewController.swift */,
+				2716ACAB1CEEEDEC004F3ED1 /* workViewController.swift */,
 				27ECAD1B1CDC6FF100051D23 /* Main.storyboard */,
 				27ECAD1E1CDC6FF100051D23 /* Assets.xcassets */,
 				27ECAD201CDC6FF100051D23 /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27ECAD1A1CDC6FF100051D23 /* ViewController.swift in Sources */,
+				2716ACAC1CEEEDEC004F3ED1 /* workViewController.swift in Sources */,
 				2799014C1CED992500B5D768 /* WLAreaPickerView.swift in Sources */,
 				27ECAD181CDC6FF100051D23 /* AppDelegate.swift in Sources */,
 			);
