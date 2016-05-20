@@ -16,9 +16,12 @@ class ViewController: UIViewController ,WLAreaPickerViewDelegate{
         super.viewDidLoad()
         pickerView.wlPickerViewDelegate = self
         
-        let label = UILabel.init(frame: self.view.frame)
+        let label = UILabel.init(frame: CGRectMake(0, 0, 100, 40))
         label.text = "wlbranch"
         self.view.addSubview(label)
+        
+        label.removeFromSuperview()
+        
     }
     @IBOutlet var showButton: UIButton!
 
