@@ -28,6 +28,8 @@ class ViewController: UIViewController ,WLAreaPickerViewDelegate{
         
         let Str = "end"
         
+        let str2 = "hehe"
+        
     }
     @IBOutlet var showButton: UIButton!
 
