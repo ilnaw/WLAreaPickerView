@@ -32,8 +32,8 @@ class ViewController: UIViewController ,WLAreaPickerViewDelegate{
         let str2 = "hehe"
 
         print("dev new commit")
-
-        print("我要从暂存区返回到工作区")
+        
+        print("策略")
         
     }
     @IBOutlet var showButton: UIButton!
