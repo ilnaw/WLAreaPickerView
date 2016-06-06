@@ -28,6 +28,8 @@ class ViewController: UIViewController ,WLAreaPickerViewDelegate{
         
         let Str = "end"
         
+        print("dev new commit")
+        
     }
     @IBOutlet var showButton: UIButton!
 
