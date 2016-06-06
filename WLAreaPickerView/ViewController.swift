@@ -33,6 +33,7 @@ class ViewController: UIViewController ,WLAreaPickerViewDelegate{
 
         print("dev new commit")
 
+        print("我要从暂存区返回到工作区")
         
     }
     @IBOutlet var showButton: UIButton!
