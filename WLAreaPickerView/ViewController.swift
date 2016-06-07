@@ -30,6 +30,8 @@ class ViewController: UIViewController ,WLAreaPickerViewDelegate{
         
 
         let str2 = "hehe"
+        
+        let str3 = "好吧"
 
         print("dev new commit")
         
