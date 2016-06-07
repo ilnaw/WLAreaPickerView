@@ -37,7 +37,7 @@ class ViewController: UIViewController ,WLAreaPickerViewDelegate{
         
         let str5 = "wanli"
         
-        let str6 = "liuzhen"
+        let str6 = "liuzhen来了 这是bug"
 
         print("dev new commit")
         
