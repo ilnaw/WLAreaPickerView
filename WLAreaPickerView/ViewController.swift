@@ -35,6 +35,8 @@ class ViewController: UIViewController ,WLAreaPickerViewDelegate{
         
         print("策略")
         
+        print("haol")
+        
     }
     @IBOutlet var showButton: UIButton!
 
