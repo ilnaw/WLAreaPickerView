@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController ,WLAreaPickerViewDelegate{
 
     var pickerView = WLAreaPickerView()
+    private var name : String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
